@@ -3,8 +3,8 @@ const YEAR = new Date().getFullYear()
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
+      <time>{YEAR}</time> Gustavo T. Hatanaka.
+      <a href="http://localhost:3000/">Home Page</a>
       <style jsx>{`
         a {
           float: right;
